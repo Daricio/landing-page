@@ -193,3 +193,12 @@ figcaption {
   border: 2px solid var(--white);
   margin: 0;
 }
+
+.footer {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--pale-white);
+  height: 12vh;
+}
