@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #1f2937;
+  --white: #f9faf8;
+  --pale-white: #e5e7eb;
+  --blue: #3882f6;
+}
