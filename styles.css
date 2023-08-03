@@ -51,4 +51,49 @@ a {
 .hero {
   background: var(--dark-blue);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  color: var(--pale-white);
+  font-size: 18px;
+}
+
+.hero-container {
+  display: flex;
+  width: 960px;
+  gap: 20px;
+}
+
+.hero-container > * {
+  flex: 1;
+}
+
+.hero-header {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  margin: 0;
+}
+
+.sign-up-btn {
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin: 10px 0;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+
+.hero-image-placeholder {
+  background: rgba(229, 231, 235, 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
 }
