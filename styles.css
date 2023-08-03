@@ -8,3 +8,47 @@
   --pale-white: #e5e7eb;
   --blue: #3882f6;
 }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  align-items: center;
+}
+
+.logo {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--pale-white);
+}
+
+.hero {
+  background: var(--dark-blue);
+  display: flex;
+}
