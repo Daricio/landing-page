@@ -160,3 +160,36 @@ figcaption {
   font-size: 22px;
   margin-right: 40px;
 }
+
+.call-to-action {
+  background-color: var(--white);
+  min-height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--pale-white);
+}
+
+.call-to-action > div {
+  width: 960px;
+  background-color: var(--blue);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 18vh;
+}
+
+.call-to-action-header {
+  color: var(--white);
+  margin: 0;
+}
+
+.call-to-action p {
+  margin: 0;
+}
+
+.call-to-action .sign-up-btn {
+  border: 2px solid var(--white);
+  margin: 0;
+}
